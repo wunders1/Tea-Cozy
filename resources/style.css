@@ -18,12 +18,14 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
 	background-color: black;
+	top: 0px;
+	align-items: center;
 }
 
 .logo {
   display: flex;
   flex-grow: 1;
-	flex-shrink: 1;
+	/*flex-shrink: 1;*/
   height: 50px;
 }
 
@@ -56,6 +58,7 @@ nav span a {
 	width: 100%;
 	flex-direction: column;
 	align-items: center;
+	/*padding-top: 69px;*/
 
 }
 
@@ -65,7 +68,7 @@ nav span a {
 	display: flex;
 	align-items: center;
   justify-content: center;
-	margin-top: 70px;
+	padding-top: 70px;
 	width: 1200px;
 	height: 700px;
 	background-image: url(mission-background.jpg);
@@ -83,8 +86,9 @@ nav span a {
  	align-items: center;
   justify-content: center;
 	width: 1000px;
+	height: 700px;
 	flex-direction: column;
-	margin-top: 69px;
+	padding-top: 69px;
  }
 
  .this-month {
@@ -116,12 +120,14 @@ nav span a {
 	display: flex;
 	align-items: center;
   justify-content: center;
-	margin-top: 70px;
+	margin-top: 69px;
 	height: 500px;
 	background-image: url(locations-background.jpg);
 	flex-direction: column;
 }
-
+locations .h2 {
+	padding: 15px;
+}
 .where {
 	width: 1200px;
 	display: flex;
@@ -160,8 +166,7 @@ h5 {
 /* Footer */
 
 footer {
-	margin: 20px;
-
+	padding-left: 20px;
 }
 
 footer h5 {
